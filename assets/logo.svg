@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="57 122 406 268" width="406" height="268">
+  <defs><linearGradient id="imag" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF2BD6"/><stop offset="1" stop-color="#A63CFF"/></linearGradient>
+    <linearGradient id="ired" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff0844"/><stop offset="1" stop-color="#ff4e50"/></linearGradient>
+    <filter id="igM" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="7" result="b"/><feFlood flood-color="#FF2BD6" flood-opacity="0.7"/><feComposite in2="b" operator="in" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="igR" x="-60%" y="-30%" width="220%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="7" result="b"/><feFlood flood-color="#ff0844" flood-opacity="0.75"/><feComposite in2="b" operator="in" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <mask id="ispr"><rect x="-124" y="-81" width="248" height="162" fill="#fff"/><g fill="#000"><rect x="-98" y="-69" width="16" height="12" rx="2"/><rect x="-98" y="57" width="16" height="12" rx="2"/><rect x="-62" y="-69" width="16" height="12" rx="2"/><rect x="-62" y="57" width="16" height="12" rx="2"/><rect x="-26" y="-69" width="16" height="12" rx="2"/><rect x="-26" y="57" width="16" height="12" rx="2"/><rect x="10" y="-69" width="16" height="12" rx="2"/><rect x="10" y="57" width="16" height="12" rx="2"/><rect x="46" y="-69" width="16" height="12" rx="2"/><rect x="46" y="57" width="16" height="12" rx="2"/><rect x="82" y="-69" width="16" height="12" rx="2"/><rect x="82" y="57" width="16" height="12" rx="2"/><rect x="-100" y="-45" width="200" height="90" rx="4"/></g></mask></defs>
+  
+  
+  <g transform="translate(256,256) scale(1.05) skewX(-12)">
+    <path d="M-108 -105 H-150 V105 H-108" fill="none" stroke="url(#imag)" stroke-width="12" stroke-linecap="square" filter="url(#igM)"/>
+    <path d="M108 -105 H150 V105 H108" fill="none" stroke="url(#ired)" stroke-width="12" stroke-linecap="square" filter="url(#igR)"/>
+    <g filter="url(#igM)"><path d="M-118 -81h236a6 6 0 0 1 6 6v150a6 6 0 0 1 -6 6h-236a6 6 0 0 1 -6 -6v-150a6 6 0 0 1 6 -6zM-98 -69h16v12h-16zM-98 57h16v12h-16zM-62 -69h16v12h-16zM-62 57h16v12h-16zM-26 -69h16v12h-16zM-26 57h16v12h-16zM10 -69h16v12h-16zM10 57h16v12h-16zM46 -69h16v12h-16zM46 57h16v12h-16zM82 -69h16v12h-16zM82 57h16v12h-16zM-100 -45h200v90h-200z" fill="url(#imag)" fill-rule="evenodd"/></g><rect x="-84" y="-31" width="168" height="62" rx="3" fill="none" stroke="url(#ired)" stroke-width="5" stroke-dasharray="26 10" filter="url(#igR)"/></g>
+</svg>
